@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    
+font-family: 'Montserrat', sans-serif;
+    /* background-color: rgb(34, 34, 54);  */
+     /* background-color: rgba(177, 80, 63, 0.87); */
+     /* background-color: rgb(58, 138, 58); */
+     background-color: rgb(224, 224, 224);;
+    font-size: 62.5%;
+    
+  }
+
+ 
+
+  .main,
+  .try,
+  .win {
+      text-align: center;
+      width: 50%;
+      margin: 0 auto;
+      padding-top: 15rem;
+  }
+
+  .main-heading,
+  .try-heading,
+  .win-heading {
+    text-transform: uppercase;
+      font-size: 4rem;
+      color: rgb(180, 180, 180);
+      font-weight: 400;
+  }
+
+  .btn {
+      letter-spacing: .05rem;
+  }
+
+  .start-btn {
+      font-size: 1rem;
+      color: rgb(180, 180, 180);
+      margin-top: 2.5rem;
+      padding: 1rem;
+      border: 1px solid  rgb(187, 132, 69);
+      border-radius: .2rem;
+      box-shadow: .15rem .2rem rgb(122, 75, 22);
+      background-color: rgb(187, 132, 69);
+        cursor: pointer;
+  }
+
+
+  .try-btn {
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    border-radius: .2rem;
+    border: 1px solid  rgba(180, 55, 33, 0.87);
+    box-shadow: .1rem .1rem rgba(143, 66, 53, 0.87);
+    color: rgba(180, 55, 33, 0.87);
+    background-color: rgb(180, 180, 180);
+    cursor: pointer;
+  }
+
+  .lose-text,
+  .win-text {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    color: rgb(180, 180, 180);
+  }
+
+  .playAgain-btn {
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    border: 1px solid  rgb(3, 90, 17);
+    border-radius: .2rem;
+    box-shadow: .1rem .1rem rgb(1, 46, 8);
+    background-color: rgb(3, 90, 17);
+    color: rgb(180, 180, 180);
+  }
+
+
+  .main-game {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .game-heading {
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-top: 4rem;
+  }
+
+  .container {
+      display: flex;
+      width: 90%;
+      margin: 4rem auto;
+      justify-content: center;
+
+  }
+
+  .words {
+      background-color: rgb(189, 189, 189);
+      padding: 1.5rem 1.8rem;
+      margin-left: .2rem;
+      font-size: 1.3rem;
+      border-radius: .2rem;
+      border: none;
+
+  } 
+
+  .word-gap {
+    margin-left: 1rem;
+  }
+
+  .word-correct {
+      background-color: rgb(111, 199, 214);
+  }
+
+  .keyboard {
+      margin-top: 7rem;
+  }
+ 
+.keyboard-row {
+     display: flex;
+      justify-content: center;
+      
+
+}
+
+button {
+      padding: .7rem 1rem;
+      margin-left: 1rem;
+      margin-top: 1rem;
+      background-color: rgb(194, 193, 193);
+      border-radius: .4rem;
+      border: none;
+      font-size: 1.3rem;   
+}
+
+.correct-letter {
+    background-color: rgb(34, 34, 54);
+    color: #fff;
+}
+
+.wrong-letter {
+    background-color: rgb(204, 119, 21);
+    color: #fff;
+
+}
+
+.heart-images {
+    width: 50%;
+    margin: 7rem auto 0 auto ;
+    text-align: center;
+}
+
+img {
+    height: 2.5rem;
+}
